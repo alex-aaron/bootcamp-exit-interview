@@ -70,18 +70,23 @@ const pets = [
 ];
 
 /*
+Use the native filter method to return a new array of only the pets that are male cats.
+*/
+
+let maleCats;
+
+/*
 Use the native filter method to return a new array of only the pets that are dogs
 that have had only one vet vist.
 */
 
-
+let dogsWithOneVisit;
 
 
 /*
 Use the native filter method to return a new array of only the pets that have had
 vet vists marked as 'Emergency'.
 */
-
 
 
 /*
@@ -96,7 +101,6 @@ example output =>
     "Bart - male - 3 years old"
 ]
 */
-
 
 
 
