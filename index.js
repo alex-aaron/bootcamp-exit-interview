@@ -70,10 +70,29 @@ const pets = [
 ];
 
 /*
+Create a function called logNotes that takes in an array of pet objects. 
+This function should log the notes from each pet's vetVisits array.
+*/
+
+function logNotes(){
+
+}
+
+
+/*
 Use the native filter method to return a new array of only the pets that are male cats.
 */
 
 let maleCats;
+
+
+/*
+Return a new array of only the names of the male cats. // ['Noodles', 'Bart',]
+*/
+
+let maleCatNames;
+
+
 
 /*
 Use the native filter method to return a new array of only the pets that are dogs
@@ -88,6 +107,7 @@ Use the native filter method to return a new array of only the pets that have ha
 vet vists marked as 'Emergency'.
 */
 
+let emergency;
 
 /*
 Use the map method to return a new array of strings containing each pet's name, age, 
@@ -112,3 +132,5 @@ in the array).
 example output =>
 "Noodles - last visit: October 15, 2024\nFleur - last visit: July 20, 2024\nBernie - last visit: September 5, 2024\nBart - last visit: November 22, 2022"
 */
+
+let reducedStrings;
