@@ -74,9 +74,18 @@ Create a function called logNotes that takes in an array of pet objects.
 This function should log the notes from each pet's vetVisits array.
 */
 
-function logNotes(){
+function logNotes(pets){
+    for (let i = 0; i < pets.length; i++){
+        for (let j = 0; j < pets[i].vetVisits.length; j++){
+            // we're not hitting this code
+        }
+    }
 
 }
+
+// console.log(logNotes(pets));
+
+
 
 /*
 Create a function called getFirstVetVisitType that takes in an array of pet objects
@@ -99,10 +108,17 @@ let maleCats;
 
 
 /*
-Return a new array of only the names of the male cats. // ['Noodles', 'Bart',]
+Use the native map method to return a new array of the names and species of each pet.
+
+Example output:
+[
+    'Noodles - cat',
+    'Fleur - cat',
+    'Bernie - dog'
+    'Bart - dog'
+]
 */
 
-let maleCatNames;
 
 
 
