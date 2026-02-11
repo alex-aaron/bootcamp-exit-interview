@@ -87,6 +87,9 @@ example output:
         getFirstVetVisitType(pets); // => ['Non-emergency', 'Non-emergency', 'Emergency', 'Non-Emergency]
 */
 
+function getFirstVetVisitType(){
+
+}
 
 /*
 Use the native filter method to return a new array of only the pets that are male cats.
