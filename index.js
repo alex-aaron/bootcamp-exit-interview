@@ -78,6 +78,15 @@ function logNotes(){
 
 }
 
+/*
+Create a function called getFirstVetVisitType that takes in an array of pet objects
+and returns a new array of the dates of each pet's first vet visit.
+
+example output:
+
+        getFirstVetVisitType(pets); // => ['Non-emergency', 'Non-emergency', 'Emergency', 'Non-Emergency]
+*/
+
 
 /*
 Use the native filter method to return a new array of only the pets that are male cats.
